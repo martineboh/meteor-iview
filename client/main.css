@@ -1,0 +1,173 @@
+/***** Khmer *****/
+
+body {
+    font-family: "Helvetica Neue", Helvetica, "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", "微软雅黑", Arial, sans-serif;
+    font-size: 12px;
+    line-height: 1.5;
+    color: #495060;
+    background-color: #fff;
+}
+
+
+/* battambang-regular - khmer */
+
+@font-face {
+    font-family: "Battambang";
+    font-style: normal;
+    font-weight: 400;
+    src: url("/fonts-kh/battambang-v9-khmer-regular.eot");
+    /* IE9 Compat Modes */
+    src: local("Battambang"), url("/fonts-kh/battambang-v9-khmer-regular.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+    url("/fonts-kh/battambang-v9-khmer-regular.woff2") format("woff2"), /* Super Modern Browsers */
+    url("/fonts-kh/battambang-v9-khmer-regular.woff") format("woff"), /* Modern Browsers */
+    url("/fonts-kh/battambang-v9-khmer-regular.ttf") format("truetype"), /* Safari, Android, iOS */
+    url("/fonts-kh/battambang-v9-khmer-regular.svg#Battambang") format("svg");
+    /* Legacy iOS */
+}
+
+
+/* bokor-regular - khmer */
+
+@font-face {
+    font-family: "Bokor";
+    font-style: normal;
+    font-weight: 400;
+    src: url("/fonts-kh/bokor-v8-khmer-regular.eot");
+    /* IE9 Compat Modes */
+    src: local("Bokor"), url("/fonts-kh/bokor-v8-khmer-regular.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+    url("/fonts-kh/bokor-v8-khmer-regular.woff2") format("woff2"), /* Super Modern Browsers */
+    url("/fonts-kh/bokor-v8-khmer-regular.woff") format("woff"), /* Modern Browsers */
+    url("/fonts-kh/bokor-v8-khmer-regular.ttf") format("truetype"), /* Safari, Android, iOS */
+    url("/fonts-kh/bokor-v8-khmer-regular.svg#Bokor") format("svg");
+    /* Legacy iOS */
+}
+
+
+/* content-regular - khmer */
+
+@font-face {
+    font-family: "Content";
+    font-style: normal;
+    font-weight: 400;
+    src: url("/fonts-kh/content-v8-khmer-regular.eot");
+    /* IE9 Compat Modes */
+    src: local("Content"), url("/fonts-kh/content-v8-khmer-regular.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+    url("/fonts-kh/content-v8-khmer-regular.woff2") format("woff2"), /* Super Modern Browsers */
+    url("/fonts-kh/content-v8-khmer-regular.woff") format("woff"), /* Modern Browsers */
+    url("/fonts-kh/content-v8-khmer-regular.ttf") format("truetype"), /* Safari, Android, iOS */
+    url("/fonts-kh/content-v8-khmer-regular.svg#Content") format("svg");
+    /* Legacy iOS */
+}
+
+
+/* fasthand-regular - khmer */
+
+@font-face {
+    font-family: "Fasthand";
+    font-style: normal;
+    font-weight: 400;
+    src: url("/fonts-kh/fasthand-v7-khmer-regular.eot");
+    /* IE9 Compat Modes */
+    src: local("Fasthand"), local("Fasthand-Regular"), url("/fonts-kh/fasthand-v7-khmer-regular.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+    url("/fonts-kh/fasthand-v7-khmer-regular.woff2") format("woff2"), /* Super Modern Browsers */
+    url("/fonts-kh/fasthand-v7-khmer-regular.woff") format("woff"), /* Modern Browsers */
+    url("/fonts-kh/fasthand-v7-khmer-regular.ttf") format("truetype"), /* Safari, Android, iOS */
+    url("/fonts-kh/fasthand-v7-khmer-regular.svg#Fasthand") format("svg");
+    /* Legacy iOS */
+}
+
+
+/* freehand-regular - khmer */
+
+@font-face {
+    font-family: "Freehand";
+    font-style: normal;
+    font-weight: 400;
+    src: url("/fonts-kh/freehand-v8-khmer-regular.eot");
+    /* IE9 Compat Modes */
+    src: local("Freehand"), url("/fonts-kh/freehand-v8-khmer-regular.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+    url("/fonts-kh/freehand-v8-khmer-regular.woff2") format("woff2"), /* Super Modern Browsers */
+    url("/fonts-kh/freehand-v8-khmer-regular.woff") format("woff"), /* Modern Browsers */
+    url("/fonts-kh/freehand-v8-khmer-regular.ttf") format("truetype"), /* Safari, Android, iOS */
+    url("/fonts-kh/freehand-v8-khmer-regular.svg#Freehand") format("svg");
+    /* Legacy iOS */
+}
+
+
+/* metal-regular - khmer */
+
+@font-face {
+    font-family: "Metal";
+    font-style: normal;
+    font-weight: 400;
+    src: url("/fonts-kh/metal-v9-khmer-regular.eot");
+    /* IE9 Compat Modes */
+    src: local("Metal"), url("/fonts-kh/metal-v9-khmer-regular.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+    url("/fonts-kh/metal-v9-khmer-regular.woff2") format("woff2"), /* Super Modern Browsers */
+    url("/fonts-kh/metal-v9-khmer-regular.woff") format("woff"), /* Modern Browsers */
+    url("/fonts-kh/metal-v9-khmer-regular.ttf") format("truetype"), /* Safari, Android, iOS */
+    url("/fonts-kh/metal-v9-khmer-regular.svg#Metal") format("svg");
+    /* Legacy iOS */
+}
+
+
+/* moul-regular - khmer */
+
+@font-face {
+    font-family: "Moul";
+    font-style: normal;
+    font-weight: 400;
+    src: url("/fonts-kh/moul-v8-khmer-regular.eot");
+    /* IE9 Compat Modes */
+    src: local("Moul"), url("/fonts-kh/moul-v8-khmer-regular.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+    url("/fonts-kh/moul-v8-khmer-regular.woff2") format("woff2"), /* Super Modern Browsers */
+    url("/fonts-kh/moul-v8-khmer-regular.woff") format("woff"), /* Modern Browsers */
+    url("/fonts-kh/moul-v8-khmer-regular.ttf") format("truetype"), /* Safari, Android, iOS */
+    url("/fonts-kh/moul-v8-khmer-regular.svg#Moul") format("svg");
+    /* Legacy iOS */
+}
+
+
+/* moulpali-regular - khmer */
+
+@font-face {
+    font-family: "Moulpali";
+    font-style: normal;
+    font-weight: 400;
+    src: url("/fonts-kh/moulpali-v9-khmer-regular.eot");
+    /* IE9 Compat Modes */
+    src: local("Moul Pali"), local("MoulPali"), url("/fonts-kh/moulpali-v9-khmer-regular.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+    url("/fonts-kh/moulpali-v9-khmer-regular.woff2") format("woff2"), /* Super Modern Browsers */
+    url("/fonts-kh/moulpali-v9-khmer-regular.woff") format("woff"), /* Modern Browsers */
+    url("/fonts-kh/moulpali-v9-khmer-regular.ttf") format("truetype"), /* Safari, Android, iOS */
+    url("/fonts-kh/moulpali-v9-khmer-regular.svg#Moulpali") format("svg");
+    /* Legacy iOS */
+}
+
+
+/* siemreap-regular - khmer */
+
+@font-face {
+    font-family: "Siemreap";
+    font-style: normal;
+    font-weight: 400;
+    src: url("/fonts-kh/siemreap-v9-khmer-regular.eot");
+    /* IE9 Compat Modes */
+    src: local("Siemreap"), url("/fonts-kh/siemreap-v9-khmer-regular.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+    url("/fonts-kh/siemreap-v9-khmer-regular.woff2") format("woff2"), /* Super Modern Browsers */
+    url("/fonts-kh/siemreap-v9-khmer-regular.woff") format("woff"), /* Modern Browsers */
+    url("/fonts-kh/siemreap-v9-khmer-regular.ttf") format("truetype"), /* Safari, Android, iOS */
+    url("/fonts-kh/siemreap-v9-khmer-regular.svg#Siemreap") format("svg");
+    /* Legacy iOS */
+}
+
+
+/***** iView *****/
+
+@font-face {
+    font-family: Ionicons;
+    src: url("/fonts/ionicons.eot?v=2.0.0");
+    src: url("/fonts/ionicons.eot?v=2.0.0#iefix") format("embedded-opentype"), url("/fonts/ionicons.ttf?v=2.0.0") format("truetype"), url("/fonts/ionicons.woff?v=2.0.0") format("woff"), url("/fonts/ionicons.svg?v=2.0.0#Ionicons") format("svg");
+    font-weight: 400;
+    font-style: normal
+}
