@@ -33,20 +33,37 @@
 
         <h2>Loadingbar...</h2>
         <Button @click='lodingbar'>Lodingbar</Button>
+
+        <h2>Map</h2>
+        <!-- <google-map style="width: 100%; height: 100%; position: absolute; left:0; top:0" :center="{lat: 1.38, lng: 103.8}" :zoom="12"> -->
+    
     </div>
 </template>
 
 <script>
 import Spinner from 'vue-simple-spinner';
 
+// import Vue from 'vue';
+// import VueGoogleMap from 'vue-google-maps/src/main.js';
+// VueGoogleMap.load({
+//     'key': 'AIzaSyBzlLYISGjL_ovJwAehh6ydhB56fCCpPQw',
+// });
+// Vue.component('google-map', VueGoogleMap.Map);
+
 export default {
     components: {
-        Spinner
+        Spinner,
     },
     data() {
         return {
             modal: false,
-            spinShow: true
+            spinShow: true,
+            center: { lat: 10.0, lng: 10.0 },
+            markers: [{
+                position: { lat: 10.0, lng: 10.0 }
+            }, {
+                position: { lat: 11.0, lng: 11.0 }
+            }]
         };
     },
     mounted() {

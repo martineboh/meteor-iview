@@ -46,6 +46,8 @@ import 'vue2-animate/dist/vue2-animate.min.css';
 // import 'animate.css/animate.min.css';
 // Vue.use(AnimatedVue);
 
+// Map
+
 //----------- App layout component -------------
 import AppLayout from '../../client/layouts/AppLayout.vue';
 
