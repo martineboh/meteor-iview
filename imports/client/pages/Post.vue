@@ -8,7 +8,7 @@
                 <Button type="primary" icon="plus-round" @click="addNew">New</Button>
             </div>
 
-            <Table ref='tableData' :columns="tableCols" :data="tableData"></Table>
+            <Table :loading="!$subReady.posts" :columns="tableCols" :data="tableData"></Table>
         </div>
     </div>
 </template>

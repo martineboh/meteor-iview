@@ -7,6 +7,8 @@ import Post from '../../client/pages/Post.vue';
 import PostNew from '../../client/pages/PostNew.vue';
 import PostEdit from '../../client/pages/PostEdit.vue';
 
+import GMap from '../../client/pages/Map.vue';
+
 const routes = [
     // Not Found
     {
@@ -93,6 +95,16 @@ const routes = [
                         },
                     },
                 ]
+            },
+            // Map
+            {
+                path: 'map',
+                name: 'map',
+                component: GMap,
+                meta: {
+                    pageTitle: 'Map',
+                    // ignore breadcrumb
+                },
             },
         ]
     },

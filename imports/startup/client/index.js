@@ -47,6 +47,14 @@ import 'vue2-animate/dist/vue2-animate.min.css';
 // Vue.use(AnimatedVue);
 
 // Map
+import 'vue-googlemaps/dist/vue-googlemaps.css';
+import VueGoogleMaps from 'vue-googlemaps';
+Vue.use(VueGoogleMaps, {
+    load: {
+        apiKey: 'AIzaSyBVH-aNNlZKmjRYxjt_2c0-m5AxYhF-iqU',
+        // libraries: ['places'],
+    },
+});
 
 //----------- App layout component -------------
 import AppLayout from '../../client/layouts/AppLayout.vue';

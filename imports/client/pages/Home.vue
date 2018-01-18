@@ -10,45 +10,26 @@
 
         <!-- iView Spin -->
         <h2>Spin</h2>
-        <div class="demo-spin-article" ref="test">
-            <h3>登金陵凤凰台</h3>
-            <address>李白</address>
+        <div class="demo-spin-article">
             <article>
-                <p>凤凰台上凤凰游，凤去台空江自流。</p>
-                <p>吴宫花草埋幽径，晋代衣冠成古丘。</p>
-                <p>三山半落青天外，二水中分白鹭洲。</p>
-                <p>总为浮云能蔽日，长安不见使人愁。</p>
-                <p>总为浮云能蔽日，长安不见使人愁。</p>
-                <p>总为浮云能蔽日，长安不见使人愁。</p>
-                <p>总为浮云能蔽日，长安不见使人愁。</p>
-                <p>总为浮云能蔽日，长安不见使人愁。</p>
-                <p>总为浮云能蔽日，长安不见使人愁。</p>
-                <p>总为浮云能蔽日，长安不见使人愁。</p>
-                <p>总为浮云能蔽日，长安不见使人愁。</p>
+                <p>Hi Spinner!</p>
+                <p>Hi Spinner!</p>
+                <p>Hi Spinner!</p>
+                <p>Hi Spinner!</p>
+                <p>Hi Spinner!</p>
             </article>
-            <Spin size="large" fix v-show="spinShow"></Spin>
+            <Spin fix v-if="!spinShow"></Spin>
         </div>
-        <br> 切换显示状态：
+        <br> Switch status:
         <i-switch @on-change="spinShow = !spinShow"></i-switch>
 
         <h2>Loadingbar...</h2>
         <Button @click='lodingbar'>Lodingbar</Button>
-
-        <h2>Map</h2>
-        <!-- <google-map style="width: 100%; height: 100%; position: absolute; left:0; top:0" :center="{lat: 1.38, lng: 103.8}" :zoom="12"> -->
-    
     </div>
 </template>
 
 <script>
 import Spinner from 'vue-simple-spinner';
-
-// import Vue from 'vue';
-// import VueGoogleMap from 'vue-google-maps/src/main.js';
-// VueGoogleMap.load({
-//     'key': 'AIzaSyBzlLYISGjL_ovJwAehh6ydhB56fCCpPQw',
-// });
-// Vue.component('google-map', VueGoogleMap.Map);
 
 export default {
     components: {
@@ -67,9 +48,6 @@ export default {
         };
     },
     mounted() {
-        this.$nextTick(() => {
-            console.log(this.$ref.test.$el.clientHeight);
-        })
     },
     methods: {
         lodingbar() {
@@ -93,8 +71,8 @@ export default {
     /* width: 400px; */
     height: 200px;
     padding: 10px;
-    text-align: center;
+    /* text-align: center; */
     position: relative;
-    border: 1px solid #eee;
+    /* border: 1px solid #eee; */
 }
 </style>
